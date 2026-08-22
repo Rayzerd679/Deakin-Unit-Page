@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
 
 .site-header {
@@ -15,6 +16,10 @@ body {
 .logo {
   height: 60px;
   width: auto;
+}
+
+.content {
+  padding: 24px 20px 40px;
 }
 
 h1 {
@@ -33,11 +38,16 @@ p {
   font-family: Arial
 }
 
+table {
+  border-collapse: collapse;
+}
+
 th, td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-  font-family: Arial
+  font-family: Arial;
+  vertical-align: top
 }
 
 tr:nth-child(odd) {background-color: #f2f2f2;}
